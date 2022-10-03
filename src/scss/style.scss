@@ -1,0 +1,426 @@
+
+
+body {
+    background-color: none;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: none;
+  }
+
+  .App{
+    max-width:fit-content;
+    max-height: fit-content;
+    
+}
+.mr-2 {
+margin-right: 10px;
+}
+
+.ml-2{
+    margin-left: 10px;
+}
+
+.mb-2{
+    margin-bottom: 10px;
+}
+
+.mt-2{
+    margin-top: 10px;
+}
+.p{
+    padding: 10px;
+}
+.button1 {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 14px;
+    background-color: cadetblue;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.button2 {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 14px;
+    background-color: rgb(95, 95, 160);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.button3 {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 14px;
+    background-color: rgb(218, 64, 190);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.button4 {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: rgb(233, 213, 102);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.button1:hover {background-color: #288167}
+.button2:hover {background-color: rgb(80, 80, 132)}
+.button3:hover {background-color: rgb(134, 26, 115);}
+.button4:hover {background-color: rgb(165, 151, 70)}
+.addRow:hover {background-color: rgb(231, 228, 228);}
+.channelrow{
+    height: 50px;
+    position: relative;
+    width:1150px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 0px;
+    background-color: white;
+    left: 145px;
+    
+    margin-bottom: 20px;
+    bottom: 75px;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+
+.addchannel{
+    position: relative;
+    
+    background-color: rgb(219, 212, 212);
+    border: none;
+    height:30px;
+    top:0px;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px 1px rgb(192, 187, 187);
+}
+.addicon{
+    color: white;
+    position: relative;
+    top:2px
+}
+
+
+.dropdown-item{
+    position: absolute;
+    left: 430px;
+    top: 55px;
+    border: grey;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.12);
+    font-weight: 16px;
+    color: black;
+    width: 10%;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0.1s;
+}
+.dropdown-item1{
+    position: absolute;
+    left: 430px;
+    top: 90px;
+    border: grey;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.12);
+    font-weight: 16px;
+    color: black;
+    width: 10%;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0.1s;
+}
+.dropdown-item2{
+    position: absolute;
+    left: 430px;
+    top: 125px;
+    border: grey;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.12);
+    font-weight: 16px;
+    color: black;
+    width: 10%;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0.1s;
+}
+.dropdown-item:hover{
+    background: #a7a3a3;
+}
+.dropdown-item1:hover{
+    background: #a7a3a3;
+}
+.graphrow{
+    height: 450px;
+    position: relative;
+    width: 1280px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 0px;
+    background-color: none;
+    left: 5px;
+    margin-bottom: 20px;
+    bottom: 85px;
+    border-radius: 25px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+
+.scissor{
+    color:grey;
+    position: relative;
+    padding-top: 5px;
+    left: 5px;   
+}
+.select{
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: bold;
+    font-size: small;
+} 
+.graph{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+.chart {
+    background: none;
+    width: 1200px;
+    height: 390px;
+    align-items: none;
+    //border-left: 1px dotted #555;
+    //border-bottom: 1px dotted #555;
+    padding: 1px 5px 1px ;
+  }
+  .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+  .labels.x-labels  {
+    text-anchor: middle;
+    font-size: 10px;
+  }
+  .labels.y-labels {
+    text-anchor: end;
+    font-size: 10px;
+  }
+
+.listrow{
+    height: 60px;
+    position: relative;
+    width: 1295px;
+    padding-right: 10px;
+    margin-right: 8px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 0px;
+    background-color: white;
+    left: -15px;
+    margin-bottom: 10px;
+    bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+.addRow{
+    height: 60px;
+    position: relative;
+    width: 1300px;
+    padding-right: 10px;
+    margin-right: 8px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 0px;
+    background-color: white;
+    left: -15px;
+    margin-bottom: 10px;
+    bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+//
+.inputid{
+    height: 25px;
+    width:75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left:50px;
+    bottom: 15px;
+}
+.id{
+    position: relative;
+    top:25px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: rgb(158, 147, 147);
+    font-weight: bold;
+    width: 40px;
+}
+.idnum{
+    position: relative;
+    bottom: 11px;
+    left: 30px;
+    color: gray;
+}
+
+::placeholder{
+    position: relative;
+    top: 2px;
+    left: 30px;
+    color: gray;
+    font-size: 16px;
+}
+.startbox{
+    height: 25px;
+    width:75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left:560px;
+    bottom: 93px;
+    
+}
+.start{
+    position: relative;
+    left:500px;
+    width: 60px;
+    font-weight: bold;
+    color: gray;
+    bottom: 52px;
+    font-family: sans-serif;
+}
+.startTime{
+    position: relative;
+    left:25px;
+    bottom: 10px;
+    color: gray;
+}
+.end{
+    position: relative;
+    left:700px;
+    width: 60px;
+    font-weight: bold;
+    color: gray;
+    bottom: 130px;
+    font-family: sans-serif;
+}
+.endbox{
+    height: 25px;
+    width:75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left:750px;
+    bottom: 172px;
+
+}
+.endTime{
+    position: relative;
+    left:25px;
+    bottom: 10px;
+    color: gray;
+}
+.minstart{
+    position: relative;
+    left:890px;
+    width: 100px;
+    font-weight: bold;
+    color: gray;
+    bottom: 211px;
+    font-family: sans-serif;
+}
+.minstartbox{
+    height: 25px;
+    width:75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left:990px;
+    bottom: 253px;
+}
+.minstartTime{
+    position: relative;
+    left:35px;
+    bottom: 10px;
+    color: gray;
+
+}
+.minend{
+    position: relative;
+    left:1110px;
+    width: 100px;
+    font-weight: bold;
+    color: gray;
+    bottom: 290px;
+    font-family: sans-serif;
+}
+.minendbox{
+    height: 25px;
+    width:75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left:1190px;
+    bottom: 335px;
+}
+.minendTime{
+    position: relative;
+    left:35px;
+    bottom: 10px;
+    color: gray;
+}
+.closetime{
+    position: relative;
+    left:1200px;
+    bottom: 335px;
+    color: gray;
+    border: none;
+    :hover {background-color: black;}
+}
+.goplus{
+    position: relative;
+    left:0px;
+    top:5px;
+    color: gray;
+}
+
+
+
+
+
